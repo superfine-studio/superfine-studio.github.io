@@ -1,0 +1,50 @@
+/* FONTS */
+  /* --- Switch to WOFF standard? --- */
+  @font-face {
+    font-family: Gilroy;
+    src: url("fonts/Gilroy-ExtraBold.otf") format("opentype");
+  }
+  @font-face {
+    font-family: Gilroy-Light;
+    src: url("fonts/Gilroy-Light.otf") format("opentype");
+  }
+
+/* Layout */
+  * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+  }
+
+  html, body {
+    height: 100%;
+  }
+
+  h1, ul {
+    margin: 0 !important;
+    padding: 10px;
+  }
+
+  .container {
+    /*position: absolute;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .hp-focus {
+    font-family: "Montserrat", sans-serif;
+    font-size: 9.35rem;
+    font-weight: 700;
+    color: #FF5A5A;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
